@@ -1,0 +1,68 @@
+body{
+    background-color: #e7fafc;padding:20px;
+}
+h1{
+    text-align:center;font-size: 40px ;
+}
+p{
+    text-align: center;font-size: 25px;
+}
+nav{
+    text-align: center;font-size: 20px;
+}
+nav{
+    border:1px solid;padding:10px;font-weight: bold;
+    border-radius:10px ; text-decoration: ;
+}
+ section{
+    background-color: white;width:800px;
+    margin:30px auto;border-radius: 10px;
+    padding:20px;box-shadow:0 5px 13px balck;
+ }   
+ hr{
+    margin:30px auto; width:800px;border:2px solid black;
+ }
+ figure img{
+    border-radius: 50%;border:3px solid indigo;
+ }
+   
+ figcaption{
+    font-size: 25px;
+ }
+ form{
+    text-align:center ;font-size: 25px;
+}
+button{
+    text-align: center;font-size: 25px;
+}
+button:hover{
+    background-color: aquamarine;color: aqua;
+}
+.grid{
+    display: grid;grid-template-columns: ifr 2fr;
+    gap:20px;padding:20px;min-height: 70vh;
+}
+.sidework{
+    background-color: #ecf0f1;border-radius: 10px;
+    box-shadow: 0 5px  13px black;padding: 20px;
+}
+.sidework h2{
+    text-align: center;
+}
+.booking{
+    display: grid;gap:20px;width: 100%;background-color: #ecf0f1;
+}
+.booking-form{
+   display: grid;gap:20px;width:100%;max-width: 400px;
+}
+.booking-form input,.booking-form textarea{
+   border-radius: 20px;padding: 15px;
+   border: 1px solid #ccc;margin:10px;
+}
+.booking-form button{
+   background-color: black;color: white;padding: 15px;
+   border-radius: 10px;font-weight: bold;font-size: 20px;width: 200px;
+
+}
+
+
